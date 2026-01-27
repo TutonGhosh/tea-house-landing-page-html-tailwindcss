@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+    <style>
+      .font-manrope{
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/61951a945a.js" crossorigin="anonymous"></script>
 
@@ -26,9 +32,38 @@
     }
   </script>
 </head>
-<body>
+<body class="font-manrope">
     <header>
-        
+      <!-- Banner Section -->
+        <section class="max-w-screen-xl mx-auto md:flex md:justify-between md:gap-10 mt-14 p-7">
+          <!-- Banner Content -->
+          <div>
+            <h1 class="text-7xl font-extrabold text-[rgba(28,28,28,1)] mb-7 text-center md:text-left">It's good <br> tea time at The <br> Tea House</h1>
+            <p class="text-lg font-medium text-[rgba(119,119,119,1)] mb-7 text-center md:text-left"> Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+            <div class="text-center md:text-left">
+              <button class="text-xl font-bold text-[rgba(255,255,255,1)] bg-gradient-to-r from-orange-500 to-red-500 py-3 px-4 rounded-xl">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+            </div>
+          </div>
+          <!-- Banner Image -->
+          <div class="relative">
+            <!-- Image -->
+            <div class="mt-10 md:mt-0">
+              <img src="images/banner.png" alt="">
+            </div>
+            <!-- Card -->
+             <div class="flex justify-center items-center gap-3 w-[250px] p-5 bg-white rounded shadow-lg md:absolute md:top-80 md:left-32 lg:left-28">
+              <!-- icon -->
+               <div class="text-3xl">
+                <i class="fa-solid fa-star text-amber-400"></i>
+              </div>
+              <!-- text -->
+              <div>
+                <h1 class="text-2xl font-semibold">5.00</h1>
+                <p class="text-lg font-medium text-[rgba(119,119,119,1)]">Trust Pilot Ratings</p>
+              </div>
+             </div>
+          </div>
+        </section>
     </header>
     <main>
 
